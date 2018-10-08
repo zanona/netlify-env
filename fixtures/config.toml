@@ -1,0 +1,3 @@
+[build.environment]
+CONFIG_ENV = "config"
+

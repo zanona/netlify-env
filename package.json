@@ -1,0 +1,25 @@
+{
+  "name": "netlify-env",
+  "version": "0.0.0",
+  "description": "Resolve environment variables from netlify.toml, locally",
+  "main": "index.js",
+  "author": "Marcus Zanona <marcus@zanona.co>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=8"
+  },
+  "bin": "cli.js",
+  "scripts": {
+    "test": "xo && nyc ava"
+  },
+  "dependencies": {
+    "toml": "^2.3.3"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "nyc": "^13.1.0",
+    "semantic-release": "^15.10.5",
+    "xo": "^0.23.0"
+  },
+  "repository": "https://github.com/zanona/netlify-env.git"
+}

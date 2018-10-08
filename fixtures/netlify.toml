@@ -1,0 +1,17 @@
+[build.environment]
+NODE_ENV = "staging"
+BUILD_ENV = "build"
+
+[context.production.environment]
+NODE_ENV = "production"
+PRODUCTION_ENV = "production"
+
+[context.deploy-preview.environment]
+DEPLOY_PREVIEW_ENV = "deploy-preview"
+
+[context.branch-deploy.environment]
+BRANCH_DEPLOY_ENV = "branch-deploy"
+
+[context.development.environment]
+NODE_ENV = "development"
+DEVELOPMENT_ENV = "development"
