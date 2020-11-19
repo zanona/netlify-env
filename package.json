@@ -8,7 +8,9 @@
   "engines": {
     "node": ">=8"
   },
-  "bin": "cli.js",
+  "bin": {
+    "netlify-env": "cli.js"
+  },
   "scripts": {
     "test": "xo && nyc ava"
   },
@@ -18,7 +20,7 @@
   "devDependencies": {
     "ava": "^0.25.0",
     "nyc": "^13.1.0",
-    "semantic-release": "^15.10.5",
+    "semantic-release": ">=17.2.3",
     "xo": "^0.23.0"
   },
   "repository": "https://github.com/zanona/netlify-env.git"
